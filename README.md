@@ -28,6 +28,16 @@ Targeting the top high-risk customers allows organizations to reduce churn effic
 
 ## ▶ Run Locally
 
-```bash
+'''bash
 pip install -r requirements.txt
 streamlit run streamlit_app.py
+
+## 📌 Project Note
+
+All development for this project — including data preprocessing, EDA, model training, evaluation, retention simulation, and the Streamlit dashboard — was completed in **Google Colab**.
+
+For convenience, the complete end-to-end workflow (including the Streamlit app code) is available inside:
+
+customer_churn_end_to_end.ipynb
+
+This notebook contains the full pipeline from raw data to final dashboard deployment.
